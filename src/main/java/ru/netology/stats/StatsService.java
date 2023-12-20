@@ -42,6 +42,7 @@ public class StatsService {
         return monthMin + 1;
 
     }
+
     public int monthsBelowAverage(long[] sales) {
         int counter = 0;
         long averageSale = average(sales);
